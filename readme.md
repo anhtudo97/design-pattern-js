@@ -10,3 +10,4 @@ Design patterns are reusable solutions to common problems encountered in softwar
 ## Table of Contents
 
 1. Strategy pattern
+2. Observer pattern
