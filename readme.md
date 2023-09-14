@@ -12,3 +12,4 @@ Design patterns are reusable solutions to common problems encountered in softwar
 1. Strategy pattern
 2. Observer pattern
 3. Facade pattern
+4. Singleton pattern
