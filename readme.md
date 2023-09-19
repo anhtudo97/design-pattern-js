@@ -14,3 +14,4 @@ Design patterns are reusable solutions to common problems encountered in softwar
 3. Facade pattern
 4. Singleton pattern
 5. Proxy pattern
+6. Prototype pattern
