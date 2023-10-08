@@ -15,3 +15,6 @@ Design patterns are reusable solutions to common problems encountered in softwar
 4. Singleton pattern
 5. Proxy pattern
 6. Prototype pattern
+
+## Other content for high level developer
+1. Handle error
