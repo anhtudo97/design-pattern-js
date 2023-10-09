@@ -26,6 +26,7 @@
 */
 
 // Level 1
+
 console.log(0);
 
 setTimeout(() => {
@@ -73,4 +74,26 @@ console.log(6);
     then ---- 1
     then ---- 2
     1
+*/
+
+/*
+    const foo = () => console.log('First');
+    const bar = () =>
+    setTimeout(() => {
+        console.log('Second');
+        return undefined;
+    }, 500);
+    const baz = () => console.log('Third');
+
+    bar();
+    foo();
+    baz();
+*/
+
+// Output
+/*
+    First
+    Third
+    Undefined
+    Second
 */
