@@ -40,6 +40,10 @@ new Promise(function (resolve, reject) {
   // add to job queue by resolve()
   .then(function (val) {
     console.log(val);
+  })
+  // add to job queue cause that is mirco task
+  .then(function () {
+    console.log('then ---- 1');
   });
 
 new Promise(function (resolve, reject) {
@@ -50,6 +54,10 @@ new Promise(function (resolve, reject) {
   // add to job queue by resolve()
   .then(function (val) {
     console.log(val);
+  })
+  // add to job queue cause that is mirco task
+  .then(function () {
+    console.log('then ---- 2');
   });
 
 console.log(6);
@@ -62,5 +70,7 @@ console.log(6);
     6
     3
     5
+    then ---- 1
+    then ---- 2
     1
 */
