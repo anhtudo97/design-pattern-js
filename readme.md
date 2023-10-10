@@ -16,5 +16,18 @@ Design patterns are reusable solutions to common problems encountered in softwar
 5. Proxy pattern
 6. Prototype pattern
 
-## Other content for high level developer
+## Content for high level developer
 1. Handle error
+2. Event loop
+
+### Explain
+ #### Marco-task(task queue)
+    setTimeout()
+    setInterval()
+    setInmmdiate
+    I / O
+    UI render
+ ### Micro-task(job queue)
+    promise
+    process.nextTick
+    async/await
